@@ -6,6 +6,9 @@ import Card from './Card.jsx';
 import './index.css';
 import CardPage from './Card-page.jsx';
 import Button from './Buttons.jsx';
+import Student from './Student.jsx';
+import StudentPage from './StudentPage.jsx';
+import UserGreeting from './UserGreeting.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -18,6 +21,12 @@ const router = createBrowserRouter([
   },{
     path:'/button',
     element:<Button/>
+  },{
+    path:'/Student',
+    element:<StudentPage/>
+  },{
+    path:'/usergreeting',
+    element:<UserGreeting isLoggedIn={true} username="Danny"/>
   }
 ]);
 

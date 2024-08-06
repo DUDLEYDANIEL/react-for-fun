@@ -34,3 +34,43 @@ height: auto;
   cursor: pointer;
   border-radius: 10%;
 }
+
+.student{
+  border:2px solid #f32d2d;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 5px 5px 5px #ea9797;
+  font-size: 24px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 100%;
+  /* display: inline-block; */
+}
+.student p{
+  margin: 0;
+  padding: 3px;
+}
+
+.welcome-msg{
+  font-size: medium;
+  background-color: #2df347;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 100%;
+  /* display: inline-block; */
+}
+
+.login-pmpt{
+  font-size: medium;
+  background-color: #d40b0b;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 100%;
+  /* display: inline-block; */
+}
